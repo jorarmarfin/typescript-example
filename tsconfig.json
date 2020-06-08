@@ -1,4 +1,5 @@
 {
+  "exclude":["typescript"], //Para excluir carpeta y que no se compilen
   "compilerOptions": {
     /* Visit https://aka.ms/tsconfig.json to read more about this file */
 
