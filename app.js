@@ -1,18 +1,12 @@
 "use strict";
 (function () {
-    function saludar(nombre) {
-        console.table('Hola ' + nombre); // Hola Logan
+    function getEdad() {
+        return 1 + 2 + 3;
     }
-    var wolverine = {
-        nombre: 'Logan'
-    };
-    saludar(wolverine.nombre);
-    var numero = 1;
-    var letra = 'abc';
-    var booleano = true;
-    var hoy = new Date();
-    var spiderman = {
-        nombre: 'Peter',
-        edad: 30
-    };
+    var nombre = "Luis";
+    var apellido = "Mayta";
+    var edad = 40;
+    // const salida = nombre + " "+ apellido+" ("+edad+")"
+    var salida = nombre + " " + apellido + " (" + edad + ") fun: " + getEdad();
+    console.log(salida);
 })();
